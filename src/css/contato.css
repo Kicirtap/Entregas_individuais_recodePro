@@ -1,0 +1,30 @@
+.app_contato {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    font-family: 'Truculenta', sans-serif;
+    
+}
+
+
+@media screen and (max-width: 468px) {
+    .app_contato {
+        grid-template-rows: auto auto auto auto;
+    }
+    .contato_app_main {
+        grid-column: 1 / 3;
+    }
+    .contato_app_aside {
+        grid-row: 3 / 4;
+        grid-column: 1 / 3;
+        border-left: none;
+        overflow-y: auto;
+    }
+
+}
+
+#container_form {
+    background-color: rgb(51, 83, 90, .04);
+    color: black;
+   
+    
+}
