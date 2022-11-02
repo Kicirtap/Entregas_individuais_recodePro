@@ -24,8 +24,19 @@
   color: white;
 }
 
+.tituloLogin{
+  margin-bottom: 3em;
+}
 .App-link {
   color: #61dafb;
+}
+.box{
+  background-color: rgb(179, 245, 126);
+  border-radius: 2rem;
+}
+
+.estilo_footer {
+  margin-top:30rem;
 }
 
 @keyframes App-logo-spin {

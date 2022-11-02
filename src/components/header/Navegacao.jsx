@@ -12,6 +12,7 @@ class Navegacao extends Component {
                     <li><Link to="/destinations" className="nav-link px-2 text-black">Destino</Link></li>
                     <li><Link to="/promotions" className="nav-link px-2 text-black">Promoções</Link></li>
                     <li><Link to="/contacts" className="nav-link px-2 text-black">Contato</Link></li>
+                    <li><Link to="/management" className="nav-link px-2 text-black">Gerência</Link></li>
                     
                 </ul>
             
